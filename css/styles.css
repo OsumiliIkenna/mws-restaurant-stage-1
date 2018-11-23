@@ -282,3 +282,84 @@ nav h1 a {
 #restaurant-hours td {
   color: #666;
 }
+
+@media screen and (min-width : 100px) and (max-width : 250px) {
+/* Styles */
+  h1 a {
+    font-size: 12pt;
+  }
+
+  #map{
+    width: 100%;
+  }
+
+  #restaurants-list li {
+    width: 100%;
+  }
+
+  #reviews-list li p {
+    font-size: 11pt;
+  }
+
+  #restaurant-hours td {
+    font-size: 11pt;
+    display: inline-flex;
+  }
+
+  #restaurant-address {
+    font-size: 11pt;
+  }
+}
+
+@media screen and (min-width : 250px) and (max-width : 780px) {
+/* Styles */
+  h1 a {
+    font-size: 12pt;
+  }
+
+  #restaurants-list li {
+    width: 100%;
+  }
+
+  #reviews-list li p {
+    font-size: 11pt;
+  }
+
+  #restaurant-hours td {
+    font-size: 11pt;
+    display: inline-flex;
+  }
+
+  #restaurant-address {
+    font-size: 11pt;
+  }
+
+}
+
+@media screen and (min-width : 780px) and (max-width : 1280px) {
+/* Styles */
+  #restaurants-list li {
+    width: 85%;
+  }
+
+  #reviews-list li p {
+    font-size: 11pt;
+  }
+
+  #restaurant-hours td {
+    font-size: 11pt;
+    display: inline-flex;
+  }
+  
+  #restaurant-address {
+    font-size: 11pt;
+  }
+}
+
+@media screen and (min-width : 1281px) {
+/* Styles */
+  #restaurants-list li {
+    align-content: center;
+    /* width: calc(25% - 60px); */
+  }
+}
